@@ -1,0 +1,56 @@
+/* Global Styles */
+body, html {
+  background-color: white; /* Set the global background color */
+  color: black; /* Force all text to be black */
+  font-family: 'Cursive', sans-serif; /* Optional: Set a global font style */
+}
+
+/* Specific sections (e.g., FAQ, etc.) */
+.faq-container,
+.faq-container * {
+  color: black !important; /* Ensure all text within FAQ sections is black */
+}
+
+/* Links */
+a {
+  color: black !important; /* Ensure all links are black */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333; /* Darker color on hover */
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  color: black !important; /* Ensure all headers are black */
+}
+
+/* FAQ-specific container (if applicable) */
+.faq-container p,
+.faq-container span,
+.faq-container div {
+  color: black !important; /* Ensure all elements in the FAQ section are black */
+}
+
+/* Footer Icons and Text */
+.footer-container i,
+.footer-container p,
+.footer-container span,
+.footer-container div {
+  color: black !important; /* Force black for all footer content */
+}
+
+.icon-large {
+  font-size: 1.5rem; /* Adjust the size to make them bigger */
+  margin-right: 13px; /* Adds space between the icons */
+}
+/* Buttons */
+button {
+  color: black !important; /* Black text for all buttons */
+  background-color: white; /* Ensure consistent background color */
+}
+
+button:hover {
+  background-color: white; /* Slightly darker background on hover */
+}

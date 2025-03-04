@@ -1,0 +1,65 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 60vh; /* Use vh to make it scalable */
+  background-size: cover; /* Make the background image cover the container */
+  background-position: center;
+}
+
+.shop-button {
+  background-color: black !important;  /* Ensure background is black */
+  color: white !important;  /* Ensure text is white */
+  font-size: 1.2rem; /* Adjust font size */
+  padding: 0.8rem 2rem; /* Adjust padding */
+  text-decoration: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.shop-button:hover {
+  background-color: white;  /* Background turns white on hover */
+  color: black !important;  /* Text turns black on hover */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .shop-button {
+    font-size: 1rem; /* Smaller font size on small screens */
+    padding: 0.6rem 1.5rem; /* Adjust padding */
+  }
+
+  .home-container {
+    height: 50vh; /* Adjust height on smaller screens */
+  }
+}
+
+/* Media Query for mobile */
+@media (max-width: 480px) {
+  .shop-button {
+    font-size: 0.9rem; /* Further adjust font size */
+    padding: 0.5rem 1rem; /* Adjust padding */
+  }
+
+  .home-container {
+    height: 40vh; /* Adjust height for mobile */
+  }
+}
+/* Default display for larger screens */
+.carousel-container {
+  display: flex !important;
+}
+
+/* Hide the carousel on smaller screens (up to 768px) */
+@media (max-width: 768px) {
+  .carousel-container {
+    display: none !important;
+  }
+}

@@ -1,0 +1,98 @@
+# Query: cupcake
+# Including: ./archies_cupcakes
+# ContextLines: 1
+
+29 results - 9 files
+
+archies_cupcakes/backend/.env:
+  3  STRIPE_SECRET_KEY=sk_test_51PnsEPP9dSGSLZgZUkReQEOqgTfkejZuoGDJF90fmhrEckcGQ432zujxLFAzUnB1oFOwTPtOYzwk8UfKLAqQqKJo00GrJVjW9L
+  4: MONGO_URI=mongodb+srv://archieverma0210:e2wdHYSUBbldqzLo@archiescupcakesdata.3cibz.mongodb.net/?retryWrites=true&w=majority
+
+archies_cupcakes/backend/package.json:
+  3    "version": "1.0.0",
+  4:   "description": "Backend for Chomp and Chill",
+  5    "main": "server.js",
+
+archies_cupcakes/backend/README.md:
+  1  # Ecommerce-App
+  2: Chomp and Chill ecommerce app in React
+
+archies_cupcakes/backend/server.js:
+  116      //   bcc: 'archieverma0210@gmail.com', // Add your email here to receive a copy but stays hidden from customer
+  117:     //   text: `Thank you for your order from Archie's Cupcakes! Your payment was successful. 
+  118      //          Order Details:
+
+  123  
+  124:     //          If you have any questions, please contact us at support@archiescupcakes.com.
+  125      //          Thank you for shopping with us!`
+
+archies_cupcakes/frontend/package-lock.json:
+  1  {
+  2:   "name": "archies_cupcakes",
+  3    "version": "0.1.0",
+
+  7      "": {
+  8:       "name": "archies_cupcakes",
+  9        "version": "0.1.0",
+
+archies_cupcakes/frontend/package.json:
+  1  {
+  2:   "name": "archies_cupcakes",
+  3    "version": "0.1.0",
+
+archies_cupcakes/frontend/src/components/Footer.js:
+  44        
+  45:       <p>&copy; {new Date().getFullYear()} Chomp and Chill. All rights reserved.</p>
+  46      </footer>
+
+archies_cupcakes/frontend/src/pages/Home.js:
+   1  import React from 'react';
+   2: import cupcakeImage from '../assets/cupcake.png'; // Correct path to the image
+   3  import logo from '../assets/logo.png'; // Import the logo image
+
+   9      <div className="home-container">
+  10:       <img src={cupcakeImage} alt="Cover Image" className="cover-image" />
+  11        <div className="overlay">
+  12:         {/* <div className="quote">"Life is short, eat the cupcakes!"</div> */}
+  13          {/* <a href="/product" className="shop-button">Shop</a> */}
+
+  20              <img src={logo} alt="Customer Image" className="review-image" />
+  21:             <p>"The best cupcakes I've ever had! So delicious and fresh! I ordered a dozen for a party, and they were a hit! Everyone kept asking where I got them. I'll definitely be a returning customer. Highly recommended!" - Jane D.</p>
+  22            </div>
+
+  28              <img src={logo} alt="Customer Image" className="review-image" />
+  29:             <p>"Perfect for any occasion. My go-to place for sweet treats! I recently ordered cupcakes for my daughter's birthday, and they were a huge success. Not only were they beautifully decorated, but they also tasted incredible. Thank you for making her day special!" - Emily R.</p>
+  30            </div>
+
+  32              <img src={logo} alt="Customer Image" className="review-image" />
+  33:             <p>"These cupcakes are a little piece of heaven! The texture is just right, and the flavors are rich and indulgent. I've tried many bakeries, but nothing compares to the quality here. Highly recommended for anyone with a sweet tooth!" - Michael T.</p>
+  34            </div>
+
+  36              <img src={logo} alt="Customer Image" className="review-image" />
+  37:             <p>"I was blown away by the variety and creativity of the cupcakes! Each one is a work of art, and they taste even better than they look. Whether you're buying for yourself or as a gift, you can't go wrong with these cupcakes. Exceptional!" - Sarah W.</p>
+  38            </div>
+
+  40              <img src={logo} alt="Customer Image" className="review-image" />
+  41:             <p>"I was blown away by the variety and creativity of the cupcakes! Each one is a work of art, and they taste even better than they look. Whether you're buying for yourself or as a gift, you can't go wrong with these cupcakes. Exceptional!" - Sarah W.</p>
+  42            </div>
+
+  44              <img src={logo} alt="Customer Image" className="review-image" />
+  45:             <p>"I was blown away by the variety and creativity of the cupcakes! Each one is a work of art, and they taste even better than they look. Whether you're buying for yourself or as a gift, you can't go wrong with these cupcakes. Exceptional!" - Sarah W.</p>
+  46            </div>
+
+  48              <img src={logo} alt="Customer Image" className="review-image" />
+  49:             <p>"I was blown away by the variety and creativity of the cupcakes! Each one is a work of art, and they taste even better than they look. Whether you're buying for yourself or as a gift, you can't go wrong with these cupcakes. Exceptional!" - Sarah W.</p>
+  50            </div>
+
+  52              <img src={logo} alt="Customer Image" className="review-image" />
+  53:             <p>"I was blown away by the variety and creativity of the cupcakes! Each one is a work of art, and they taste even better than they look. Whether you're buying for yourself or as a gift, you can't go wrong with these cupcakes. Exceptional!" - Sarah W.</p>
+  54            </div>
+
+  56              <img src={logo} alt="Customer Image" className="review-image" />
+  57:             <p>"I was blown away by the variety and creativity of the cupcakes! Each one is a work of art, and they taste even better than they look. Whether you're buying for yourself or as a gift, you can't go wrong with these cupcakes. Exceptional!" - Sarah W.</p>
+  58            </div>
+
+archies_cupcakes/frontend/src/pages/SearchResults.js:
+  67        title: 'Our Products',
+  68:       content: 'We offer a range of products...'
+  69      },

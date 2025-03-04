@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background-color: white; /* Set the background color for the entire app */
+  min-height: 100vh; /* Ensure the background color covers the full height of the screen */
+  color: black; /* Set the default text color to black */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white; /* Match the header background to the app's background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black !important; /* Ensure header text is black */
+}
+
+.App-link {
+  color: black !important; /* Ensure the link color is black */
+  text-decoration: none;
+}
+
+.App-link:hover {
+  color: white !important; /* Links will turn white on hover */
+}
+
+/* Assuming the custom cursor image is in the 'assets' folder */
+body {
+  cursor: url('./assets/custom-cursor.gif'), auto;
+  background-color: white; /* Ensure body background matches the app */
+  color: black; /* Ensure body text color is black */
+}
+
+/* If you want to make sure it applies to all elements, including the home page */
+.home-container {
+  cursor: url('./assets/custom-cursor.gif'), auto;
+  background-color: white; /* Match home container background to the app */
+  color: black; /* Ensure home container text is black */
+}
+
+/* Buttons in the app, header, and links will have black background and white text */
+button, .shop-button {
+  background-color: black !important; /* Ensure background is black */
+  color: white !important; /* Ensure text is white */
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover, .shop-button:hover {
+  background-color: white !important; /* Background turns white on hover */
+  color: black !important; /* Text turns black on hover */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
